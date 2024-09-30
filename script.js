@@ -38,12 +38,12 @@ box.addEventListener("click", ()=>{
     if(tem0){
          box.innerText="x";
          tem0=false;
-         messagebox.innerText=`${c1}, you're up`;
+         messagebox.innerText=`${c2}, you're up`;
 		box.disabled=true;
     }else{
          box.innerText="0";
          tem0=true;
-         messagebox.innerText=`${c2}, you're up`
+         messagebox.innerText=`${c1}, you're up`
 		box.disabled=true;
     }
    winnerfn();
