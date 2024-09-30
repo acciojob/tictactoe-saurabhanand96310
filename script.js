@@ -41,7 +41,7 @@ box.addEventListener("click", ()=>{
          messagebox.innerText=`${c2}, you're up`;
 		box.disabled=true;
     }else{
-         box.innerText="0";
+         box.innerText="o";
          tem0=true;
          messagebox.innerText=`${c1}, you're up`
 		box.disabled=true;
