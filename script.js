@@ -21,7 +21,6 @@ subbtn.addEventListener("click", (e)=>{
     tem0=false;
     enableBoxs();
 })
-startGame.addEventListener
 
 let winnerPattern=[
     [0,1,2],
