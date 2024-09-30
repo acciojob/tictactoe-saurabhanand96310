@@ -1,6 +1,6 @@
 //your JS code here. If required.
-const p1=document.getElementById("player1");
-const p2=document.getElementById("player2");
+const p1=document.getElementById("Player1");
+const p2=document.getElementById("Player2");
 const boxs=document.querySelectorAll(".box");
 const messagebox=document.querySelector(".message");
 
