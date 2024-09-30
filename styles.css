@@ -26,11 +26,13 @@ body{
     height: 300px;
     display: flex;
     flex-wrap: wrap;
+	
 }
 .box{
     height: 100px;
     width: 90px;
     font-size: 55px;
+    background-color: #FFC0CB;
 
 }
 #submit{
