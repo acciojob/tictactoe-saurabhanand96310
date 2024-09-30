@@ -18,7 +18,7 @@ subbtn.addEventListener("click", (e)=>{
     c2=p2.value
     console.log(c1,c2);
     messagebox.innerText=`${c1}, you're up`;
-    // tem0=false;
+    
     enableBoxs();
 })
 
@@ -36,7 +36,7 @@ let winnerPattern=[
 boxs.forEach((box)=>{
 box.addEventListener("click", ()=>{
     if(tem0){
-         box.innerText="X";
+         box.innerText="x";
          tem0=false;
          messagebox.innerText=`${c1}, you're up`;
 		box.disabled=true;
@@ -60,7 +60,8 @@ const enableBoxs=()=>{
     for(let box of boxs){
         box.disabled=false;
         box.innerText="";
-		box.backgroundColor=`#FFC0CB`;
+		box.style.backgroundColor=`#FFC0CB`;
+		tem0=true;
     }
 }
 
