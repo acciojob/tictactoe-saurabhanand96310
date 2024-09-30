@@ -66,9 +66,9 @@ const enableBoxs = () => {
 
 const showWinner = (winner) => {
     if (winner === "x") {
-        messagebox.innerText = `${c1}, congratulations you won!`;
+        messagebox.innerText = `Player1 congratulations you won!`;
     } else {
-        messagebox.innerText = `${c2}, congratulations you won!`;
+        messagebox.innerText = `Player2 congratulations you won!`;
     }
     disableBoxs();
 };
